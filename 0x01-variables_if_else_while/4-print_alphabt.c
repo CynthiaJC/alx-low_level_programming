@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 ( success)
  */
 
 int main(void)
@@ -12,9 +12,10 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'z'){
-			putchar(c);
+			if (( c != 'q' && c != 'e') && c <= 'z')
+				putchar(c);
 			c++;
 		}
-	putchar('\n');
+	putchar('\n'');
 	return (0);
 }

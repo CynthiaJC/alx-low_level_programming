@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry - point
  *
  * Return: Always 0 (success)
  */
@@ -9,11 +9,11 @@ int main(void)
 {
 	char c;
 
-	c = 'a';
+	c = 'z';
 	while
-		(c <= 'z'){
+		(c >= 'a') {
 			putchar(c);
-			c++;
+			c--;
 		}
 	putchar('\n');
 	return (0);
