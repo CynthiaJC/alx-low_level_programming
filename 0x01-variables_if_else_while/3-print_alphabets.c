@@ -1,8 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Description: Assigns random number
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,7 +16,5 @@ int main(void)
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 		putchar(alpha);
 	putchar('\n');
-	return (0);	
+	return (0);
 }
-
-
